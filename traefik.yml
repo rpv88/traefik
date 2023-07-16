@@ -26,6 +26,5 @@ certificatesResolvers:
       storage: acme.json
       dnsChallenge:
         provider: cloudflare
-#        disablePropagationCheck: true # uncomment this if you have issues pulling certificates through cloudflare, By setting >        resolvers:
           - "1.1.1.1:53"
           - "1.0.0.1:53"
